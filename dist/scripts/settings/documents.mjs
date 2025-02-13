@@ -22,8 +22,8 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Github",
-        href: "/Github",
+        title: "Navigation",
+        href: "/navigation",
         heading: "Documents",
     },
     {
