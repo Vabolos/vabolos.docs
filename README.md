@@ -27,7 +27,7 @@
 
    ```bash
    git clone https://github.com/vabolos/vabolos.docs.git
-   cd rubix-documents
+   cd vabolos.docs
    ```
 
 2. Install dependencies:
