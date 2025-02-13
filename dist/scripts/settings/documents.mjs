@@ -22,7 +22,7 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Navigation",
+        title: "Test",
         href: "/navigation",
         heading: "Documents",
     },
