@@ -26,7 +26,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/rubixvi/rubix-documents.git
+   git clone https://github.com/vabolos/vabolos.docs.git
    cd rubix-documents
    ```
 
