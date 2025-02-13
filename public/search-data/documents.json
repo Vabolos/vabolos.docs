@@ -1,5 +1,11 @@
 [
   {
+    "slug": "/Github",
+    "title": "Github",
+    "description": "How to build our your documents menu and navigations.",
+    "content": "# This is a test header for the documentation website\n\nLet's see if this works :)\n"
+  },
+  {
     "slug": "/introduction/changelog",
     "title": "Changelog",
     "description": "Changelogs and improvements to the Documents projects.",
@@ -82,12 +88,6 @@
     "title": "Tabs",
     "description": "This section provides an overview of Introduction.",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\n## Code Examples with switch\n\nHere a custom tab component from shadcn ui is used.\n"
-  },
-  {
-    "slug": "/navigation",
-    "title": "Github",
-    "description": "How to build our your documents menu and navigations.",
-    "content": "# This is a test header for the documentation website\n\nLet's see if this works :)\n"
   },
   {
     "slug": "/random",
