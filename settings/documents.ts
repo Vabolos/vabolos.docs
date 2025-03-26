@@ -59,7 +59,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Docs",
-        href: "/Docs/*"
+        href: "/Docs/Set-ExecutionPolicy.mdx"
       },
       {
         title: "Learning",
