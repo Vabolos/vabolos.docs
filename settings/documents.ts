@@ -54,6 +54,23 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
+    title: "Powershell",
+    href: "/Powershell",
+    items: [
+      {
+        title: "Docs",
+        href: "/docs"
+      },
+      {
+        title: "Learning",
+        href: "/Learning"
+      },
+    ]
+  },
+  {
+    spacer: true,
+  },
+  {
     title: "Markdown",
     href: "/markdown",
     heading: "Components",
