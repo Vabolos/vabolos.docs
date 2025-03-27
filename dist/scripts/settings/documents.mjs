@@ -9,8 +9,8 @@ export const Documents = [
                 href: "/installation",
             },
             {
-                title: "Setup",
-                href: "/setup",
+                title: "Testing",
+                href: "/test",
             },
             {
                 title: "Changelog",
@@ -47,6 +47,34 @@ export const Documents = [
                 ],
             },
         ],
+    },
+    {
+        spacer: true,
+    },
+    {
+        title: "Documentation",
+        href: "/powershell",
+        heading: "PowerShell",
+        items: [
+            {
+                title: "Docs",
+                href: "/docs",
+                items: [
+                    {
+                        title: "Set-ExecutionPolicy",
+                        href: "/execution",
+                    },
+                    {
+                        title: "Get-Command",
+                        href: "/test",
+                    },
+                ],
+            },
+            {
+                title: "Learning",
+                href: "/Learning",
+            },
+        ]
     },
     {
         spacer: true,
