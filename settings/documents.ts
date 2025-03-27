@@ -55,16 +55,16 @@ export const Documents: Paths[] = [
   },
   {
     title: "Documentation",
-    href: "/Powershell",
+    href: "/powershell",
     heading: "PowerShell",
     items: [
       {
         title: "Docs",
-        href: "/Docs",
+        href: "/docs",
         items: [
           {
-            title: "ExecutionPolicy",
-            href: "/executionpolicy",
+            title: "Set-ExecutionPolicy",
+            href: "/execution",
           },
           {
             title: "Get-Command",
