@@ -1,15 +1,8 @@
 ---
-title: test
-description: Sets the PowerShell execution policies for Windows computers.
+title: Set-ExecutionPolicy
+keywords:
+  ["policy", "pwsh", "powershell", "shell", "execution", "ExecutionPolicy", "Set-"]
 ---
-
-import { Callout } from 'nextra/components'
-
-<Callout type="info">
-This page is a direct pull from the official Microsoft documentation. The original page can be found [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.6&WT.mc_id=ps-gethelp).
-</Callout>
-
-# Set-ExecutionPolicy
 
 ## SYNOPSIS
 Sets the PowerShell execution policies for Windows computers.
@@ -54,7 +47,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 Get-ExecutionPolicy -List
 ```
 
-```Output
+```
         Scope ExecutionPolicy
         ----- ---------------
 MachinePolicy       Undefined
@@ -127,7 +120,7 @@ Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
 Get-ExecutionPolicy -List
 ```
 
-```Output
+```
         Scope ExecutionPolicy
         ----- ---------------
 MachinePolicy       Undefined
@@ -153,7 +146,7 @@ Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
 Get-ExecutionPolicy -List
 ```
 
-```Output
+```
         Scope ExecutionPolicy
         ----- ---------------
 MachinePolicy       Undefined
@@ -177,7 +170,7 @@ closed.
 Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope Process
 ```
 
-```Output
+```
         Scope ExecutionPolicy
         ----- ---------------
 MachinePolicy       Undefined
