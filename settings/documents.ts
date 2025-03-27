@@ -73,12 +73,34 @@ export const Documents: Paths[] = [
           {
             title: "Get-Credential",
             href: "/getcredential",
+          },
+          {
+            title: "Set-AuthenticodeSignature",
+            href: "/setauthenticode",
           }
         ],
       },
       {
         title: "Learning",
         href: "/Learning",
+        items: [
+          {
+            title: "pwsh Basics",
+            href: "/basics",
+          },
+          {
+            title: "pwsh Advanced",
+            href: "/advanced",
+          },
+          {
+            title: "pwsh Profesional",
+            href: "/profesional",
+          }
+        ]
+      },
+      {
+        title: "Shellboxing",
+        href: "/shellboxing",
       },
     ]
   },
