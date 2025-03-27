@@ -60,16 +60,20 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Docs",
-        href: "/docs",
+        href: "/Docs",
         items: [
           {
             title: "Set-ExecutionPolicy",
-            href: "/execution",
+            href: "/setexecution",
           },
           {
-            title: "Get-Command",
-            href: "/test",
+            title: "Get-ExecutionPolicy",
+            href: "/getexecution",
           },
+          {
+            title: "Get-Credential",
+            href: "/getcredential",
+          }
         ],
       },
       {
