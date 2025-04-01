@@ -57,7 +57,7 @@ export const Documents = [
         heading: "PowerShell",
         items: [
             {
-                title: "Documentation",
+                title: "Official Docs",
                 href: "/documents",
                 items: [
                     {
