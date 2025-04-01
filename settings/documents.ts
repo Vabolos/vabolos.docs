@@ -59,7 +59,7 @@ export const Documents: Paths[] = [
     heading: "PowerShell",
     items: [
       {
-        title: "Documentation",
+        title: "Official Docs",
         href: "/documents",
         items: [
           {
