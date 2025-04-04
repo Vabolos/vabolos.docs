@@ -9,8 +9,8 @@ export const Documents = [
                 href: "/installation",
             },
             {
-                title: "Testing",
-                href: "/test",
+                title: "Setup",
+                href: "/setup",
             },
             {
                 title: "Changelog",
