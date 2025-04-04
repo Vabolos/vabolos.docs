@@ -1,5 +1,11 @@
 [
   {
+    "slug": "/",
+    "title": "Home",
+    "description": "Welcome to the documentation site for the Open Source Software project. Here you will find all the information you need to get started, including installation instructions, usage guides, and API references.",
+    "content": "# Welcome to the Open Source Software Documentation\n\nThis documentation site is designed to help you get started with the Open Source Software project. Whether you're a developer looking to contribute, a user seeking to understand how to use the software, or someone interested in learning more about the project, you'll find the information you need here.\n"
+  },
+  {
     "slug": "/introduction/changelog",
     "title": "Changelog",
     "description": "Changelogs and improvements to the Documents projects.",
