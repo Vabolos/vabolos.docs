@@ -80,7 +80,7 @@ export const Documents = [
             },
             {
                 title: "Learning",
-                href: "/Learning",
+                href: "/learning",
                 items: [
                     {
                         title: "pwsh Basics",
@@ -91,8 +91,8 @@ export const Documents = [
                         href: "/advanced",
                     },
                     {
-                        title: "pwsh Profesional",
-                        href: "/profesional",
+                        title: "pwsh Professional",
+                        href: "/professional",
                     }
                 ]
             },
