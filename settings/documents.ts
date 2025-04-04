@@ -82,7 +82,7 @@ export const Documents: Paths[] = [
       },
       {
         title: "Learning",
-        href: "/Learning",
+        href: "/learning",
         items: [
           {
             title: "pwsh Basics",
@@ -93,8 +93,8 @@ export const Documents: Paths[] = [
             href: "/advanced",
           },
           {
-            title: "pwsh Profesional",
-            href: "/profesional",
+            title: "pwsh Professional",
+            href: "/professional",
           }
         ]
       },
