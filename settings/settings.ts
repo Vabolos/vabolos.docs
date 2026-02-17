@@ -1,4 +1,4 @@
-export const url = "https://rubix-documents.vercel.app"
+export const url = "https:https://vabolosdocs.vercel.app/"
 export const siteicon = "/icon.png"
 
 export const gtm = "GTM-XXXXXXX"
@@ -10,13 +10,12 @@ export const description =
 export const keywords = [
   "Next.js",
   "documentation",
-  "Rubix Studios",
   "open source",
   "SEO",
 ]
 export const urlimage = "/images/og-image.png"
-export const imagealt = "Rubix Studios Documentation"
-export const twitterhandle = "@RubixStudios"
+export const imagealt = "Vabolos Documentation"
+export const twitterhandle = "@Vaboloslol"
 
 export const companyname = "Vabolos"
 export const companylink = "https://github.com/vabolos"

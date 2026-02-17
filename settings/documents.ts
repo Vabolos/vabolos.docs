@@ -11,8 +11,8 @@ export const Documents: Paths[] = [
         href: "/installation",
       },
       {
-        title: "Testing",
-        href: "/test",
+        title: "Setup",
+        href: "/setup",
       },
       {
         title: "Changelog",
@@ -59,8 +59,8 @@ export const Documents: Paths[] = [
     heading: "PowerShell",
     items: [
       {
-        title: "Docs",
-        href: "/Docs",
+        title: "Official Docs",
+        href: "/documents",
         items: [
           {
             title: "Set-ExecutionPolicy",
@@ -82,7 +82,7 @@ export const Documents: Paths[] = [
       },
       {
         title: "Learning",
-        href: "/Learning",
+        href: "/learning",
         items: [
           {
             title: "pwsh Basics",
@@ -93,8 +93,8 @@ export const Documents: Paths[] = [
             href: "/advanced",
           },
           {
-            title: "pwsh Profesional",
-            href: "/profesional",
+            title: "pwsh Professional",
+            href: "/professional",
           }
         ]
       },
