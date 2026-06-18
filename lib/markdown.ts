@@ -1,7 +1,7 @@
 import { createReadStream, promises as fs } from "fs"
 import path from "path"
 import { GitHubLink } from "@/settings/navigation"
-import { Element, Text } from "hast"
+// import { Element, Text } from "hast"
 import { compileMDX } from "next-mdx-remote/rsc"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
 import rehypeCodeTitles from "rehype-code-titles"
@@ -16,11 +16,11 @@ import { components } from "@/lib/components"
 import { Settings } from "@/lib/meta"
 import { PageRoutes } from "@/lib/pageroutes"
 
-declare module "hast" {
-  interface Element {
-    raw?: string
-  }
-}
+// declare module "hast" {
+//   interface Element {
+//     raw?: string
+//   }
+// }
 
 type BaseMdxFrontmatter = {
   title: string
@@ -35,13 +35,11 @@ async function parseMdx<Frontmatter>(rawMdx: string) {
       parseFrontmatter: true,
       mdxOptions: {
         rehypePlugins: [
-          preCopy,
           rehypeCodeTitles,
           rehypeKatex,
           rehypePrism,
           rehypeSlug,
           rehypeAutolinkHeadings,
-          postCopy,
         ],
         remarkPlugins: [remarkGfm],
       },
@@ -184,23 +182,23 @@ export function getPreviousNext(path: string) {
   return { prev, next }
 }
 
-const preCopy = () => (tree: Node) => {
-  visit(tree, "element", (node: Element) => {
-    if (node.tagName === "pre") {
-      const [codeEl] = node.children as Element[]
-      if (codeEl?.tagName === "code") {
-        const textNode = codeEl.children?.[0] as Text
-        node.raw = textNode?.value || ""
-      }
-    }
-  })
-}
+// const preCopy = () => (tree: Node) => {
+//   visit(tree, "element", (node: Element) => {
+//     if (node.tagName === "pre") {
+//       const [codeEl] = node.children as Element[]
+//       if (codeEl?.tagName === "code") {
+//         const textNode = codeEl.children?.[0] as Text
+//         node.raw = textNode?.value || ""
+//       }
+//     }
+//   })
+// }
 
-const postCopy = () => (tree: Node) => {
-  visit(tree, "element", (node: Element) => {
-    if (node.tagName === "pre" && node.raw) {
-      node.properties = node.properties || {}
-      node.properties["raw"] = node.raw
-    }
-  })
-}
+// const postCopy = () => (tree: Node) => {
+//   visit(tree, "element", (node: Element) => {
+//     if (node.tagName === "pre" && node.raw) {
+//       node.properties = node.properties || {}
+//       node.properties["raw"] = node.raw
+//     }
+//   })
+// }
